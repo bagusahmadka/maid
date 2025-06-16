@@ -161,7 +161,8 @@ class AppLocalizationsDe extends AppLocalizations {
   String get localNetworkSearchTitle => 'Suche im lokalen Netzwerk';
 
   @override
-  String get localNetworkSearchContent => 'Diese Funktion benötigt zusätzliche Berechtigungen, um Ihr lokales Netzwerk nach Ollama-Instanzen zu durchsuchen.';
+  String get localNetworkSearchContent =>
+      'Diese Funktion benötigt zusätzliche Berechtigungen, um Ihr lokales Netzwerk nach Ollama-Instanzen zu durchsuchen.';
 
   @override
   String get openAI => 'OpenAI';
@@ -253,7 +254,8 @@ class AppLocalizationsDe extends AppLocalizations {
   String get aboutTitle => 'Über';
 
   @override
-  String get aboutContent => 'Maid ist eine plattformübergreifende, kostenlose und Open-Source-Anwendung zur Nutzung von llama.cpp-Modellen lokal und für die Fernverwendung mit Ollama-, Mistral- und OpenAI-Modellen. Maid unterstützt SillyTavern-Charakterkarten, sodass Sie mit Ihren Lieblingscharakteren interagieren können. Maid ermöglicht den direkten Download einer kuratierten Liste von Modellen aus Hugging Face. Maid wird unter der MIT-Lizenz vertrieben und ohne jegliche Gewährleistung bereitgestellt, weder ausdrücklich noch impliziert. Maid ist nicht mit Hugging Face, Meta (Facebook), MistralAI, OpenAI, Google, Microsoft oder anderen Unternehmen verbunden, die mit dieser Anwendung kompatible Modelle anbieten.';
+  String get aboutContent =>
+      'Maid ist eine plattformübergreifende, kostenlose und Open-Source-Anwendung zur Nutzung von llama.cpp-Modellen lokal und für die Fernverwendung mit Ollama-, Mistral- und OpenAI-Modellen. Maid unterstützt SillyTavern-Charakterkarten, sodass Sie mit Ihren Lieblingscharakteren interagieren können. Maid ermöglicht den direkten Download einer kuratierten Liste von Modellen aus Hugging Face. Maid wird unter der MIT-Lizenz vertrieben und ohne jegliche Gewährleistung bereitgestellt, weder ausdrücklich noch impliziert. Maid ist nicht mit Hugging Face, Meta (Facebook), MistralAI, OpenAI, Google, Microsoft oder anderen Unternehmen verbunden, die mit dieser Anwendung kompatible Modelle anbieten.';
 
   @override
   String get leadMaintainer => 'Hauptbetreuer';
@@ -299,7 +301,8 @@ class AppLocalizationsDe extends AppLocalizations {
   String get warning => 'Achtung';
 
   @override
-  String get nsfwWarning => 'Dieses Modell wurde absichtlich so konzipiert, dass es nicht jugendfreier (NSFW) Inhalte erzeugt. Dazu können explizite sexuelle oder gewalttätige Inhalte gehören, einschließlich Folter, Vergewaltigung, Mord und/oder sexuell abweichendes Verhalten. Wenn Sie gegenüber solchen Themen sensibel sind oder deren Diskussion gegen lokale Gesetze verstößt, BRECHEN SIE JETZT AB.';
+  String get nsfwWarning =>
+      'Dieses Modell wurde absichtlich so konzipiert, dass es nicht jugendfreier (NSFW) Inhalte erzeugt. Dazu können explizite sexuelle oder gewalttätige Inhalte gehören, einschließlich Folter, Vergewaltigung, Mord und/oder sexuell abweichendes Verhalten. Wenn Sie gegenüber solchen Themen sensibel sind oder deren Diskussion gegen lokale Gesetze verstößt, BRECHEN SIE JETZT AB.';
 
   @override
   String get login => 'Anmelden';
@@ -323,7 +326,8 @@ class AppLocalizationsDe extends AppLocalizations {
   String get resetCode => 'Zurücksetzungscode';
 
   @override
-  String get resetCodeSent => 'Ein Zurücksetzungscode wurde an Ihre E-Mail gesendet.';
+  String get resetCodeSent =>
+      'Ein Zurücksetzungscode wurde an Ihre E-Mail gesendet.';
 
   @override
   String get sendResetCode => 'Zurücksetzungscode senden';
@@ -344,7 +348,8 @@ class AppLocalizationsDe extends AppLocalizations {
   String get invalidPasswordLength => 'Mindestens 8 Zeichen';
 
   @override
-  String get invalidPassword => 'Groß-, Kleinbuchstaben, Zahl und Symbol erforderlich';
+  String get invalidPassword =>
+      'Groß-, Kleinbuchstaben, Zahl und Symbol erforderlich';
 
   @override
   String get passwordNoMatch => 'Passwörter stimmen nicht überein';
@@ -371,5 +376,6 @@ class AppLocalizationsDe extends AppLocalizations {
   String get resetSuccess => 'Ihr Passwort wurde erfolgreich zurückgesetzt.';
 
   @override
-  String get emailVerify => 'Bitte überprüfen Sie Ihre E-Mails zur Verifizierung.';
+  String get emailVerify =>
+      'Bitte überprüfen Sie Ihre E-Mails zur Verifizierung.';
 }
